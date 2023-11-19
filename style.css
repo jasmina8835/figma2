@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: #919299;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 5%;
+}
+
+/* ================Start Header================= */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    color: #919299;
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul span{
+    color: #111;
+}
+
+/* ==================Header End================ */
+
+/* ==================Start Hero================= */
+
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_left{
+    width: 50%;
+}
+
+.hero_right{
+    width: 50%;
+}
+
+h4{
+    color: #F78BB6;
+    padding: 20px 0;
+}
+
+p{
+    padding: 20px 0;
+}
+
+button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #F78BB6;
+    border: none;
+    border-radius: 5px;
+}
+
+/* =================Hero End================== */
+
+/* =================Start Section============= */
+
+.section{
+    padding: 5% 0;
+}
+
+.sec_child{
+    text-align: center;
+}
+
+.sec_cards{
+    gap: 1rem;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards{
+    height: 300px;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffecf3;
+    border-radius: 8px;
+}
+
+.cards i{
+    font-size: 30px;
+    color: #F78BB6;
+}
+
+.cards h3{
+    padding-top: 40px;
+}
+
+.cards:hover{
+    color: white;
+    background-color: #F78BB6;
+    transition: all .5s ease;
+    height: 350px;
+}
+
+.cards:hover p{
+    color: #fff;
+}
+
+.cards:hover i{
+    color: #fff;
+}
+
+/* ===============Section End================== */
+
+/* ===============Start Main=================== */
+
+main{
+    width: 100%;
+    gap: 100px;
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_left{
+    width: 50%;
+}
+
+.main_right{
+    width: 50%;
+}
+
+/* ==============Main End=================== */
+
+/* ==============Start Nav============== */
+
+nav{
+    width: 100%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_left{
+    width: 50%;
+}
+
+.nav_right{
+    width: 50%;
+}
+
+/* ==============Nav End================ */
+
+/* ==============Start Aside================ */
+
+aside{
+    width: 100%;
+    gap: 100px;
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside_left{
+    width: 50%;
+}
+
+.aside_right{
+    width: 50%;
+}
+
+/* ==============Aside End================== */
+
+/* ==============Start Brands=============== */
+
+.brands{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ==============Brands End================= */
+
+/* ==============Start Article================== */
+
+article{
+    padding: 5%;
+}
+
+.art_text{
+    text-align: center;
+}
+
+.art_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(202, 201, 201);
+    position: relative;
+}
+
+.art_input button{
+    position: absolute;
+    right: 365px;
+}
+
+/* ==============Article End==================== */
+
+/* ==============Start Footer=================== */
+
+footer{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_left .f_icons{
+    display: flex;
+    gap: 20px;
+    color: #F78BB6;
+}
+
+.footer_right h5{
+    color: #222;
+}
+
+.footer_right{
+    color: #919299;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.footer_right a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ==============Footer End===================== */
+
+.footer_bottom{
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #F78BB6;
+}
+
+.footer_bottom p{
+    color: #fff;
+}
+
+select{
+    border: none;
+    color: #fff ;
+    background-color: #F78BB6;
+}
